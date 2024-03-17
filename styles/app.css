@@ -1,0 +1,535 @@
+html {
+    direction: rtl;
+    box-sizing: border-box;
+    font-size: 62.2%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-family: "IRANSansX-Regular";
+    background-color: #e9ecef;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #212529;
+}
+
+svg {
+    color: #212529;
+}
+
+.container {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    margin-top: 2rem;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-wrapper div {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper div {
+    display: flex;
+}
+
+.app-logo {
+    margin-left: 10rem;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+}
+
+.header-input {
+    height: 4rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    transition: all 50ms ease-in;
+}
+
+.header-input::placeholder {
+    font-family: "IRANSansX-Medium";
+}
+
+.header-search {
+    background-color: #ced4da;
+    white-space: nowrap;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 4rem;
+    width: 5rem;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.header-input:focus {
+    border: 0.2rem solid #6c757d;
+}
+
+.header-search svg {
+    color: #343a40;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+.header-question,
+.header-shoppingcart-link {
+    display: flex;
+    align-items: center;
+}
+
+.header-sign-up span {
+    font-family: "IRANSansX-Medium";
+    font-size: 1.3rem;
+}
+
+.header-sign-up {
+    margin: 0 2rem;
+}
+
+.header-question svg,
+.header-shoppingcart-link svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.header-shoppingcart {
+    display: flex;
+}
+
+.header-shoppingcart {
+    position: relative;
+}
+
+.header-badge {
+    position: absolute;
+    top: -1.6rem;
+    left: 1rem;
+    background-color: #f26a8d;
+    color: #343a40;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.list:first-child {
+    padding-right: 0;
+}
+
+.list-item-link {
+    font-family: "IRANSansX-Medium";
+    transition: color 150ms ease-in;
+}
+
+.list-item-link:hover {
+    color: #c9184a;
+}
+
+.mobile-nav {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: -24rem;
+    bottom: 0;
+    background-color: #fff;
+    width: 24rem;
+    transition: all 150ms ease-in-out;
+    z-index: 99;
+}
+
+.mobile-nav.active {
+    right: 0;
+}
+
+.mobile-nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.bi-x-lg {
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.mobile-list {
+    list-style-type: none;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.list-mobile {
+    margin-left: 3rem;
+}
+
+.mobile-list-item {
+    margin-bottom: 1rem;
+}
+
+.mobile-list-item-link {
+    font-family: "IRANSansX-Medium";
+}
+
+.list-mobile svg {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.header-center-mobile {
+    display: flex;
+    width: 80%;
+}
+
+.header-input-mobile {
+    height: 4rem;
+    padding: 0 1.25em;
+    font-size: 10px;
+    width: 84%;
+    border: 1px solid #66666e;
+    border-radius: 4px;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: relative;
+    transition: all 50ms ease-in;
+}
+
+.header-input-mobile::placeholder {
+    font-family: "IRANSansX-Medium";
+}
+
+.header-search-mobile {
+    background-color: #ced4da;
+    white-space: nowrap;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 4rem;
+    width: 5rem;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.cover {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 100ms ease-in;
+    z-index: -1;
+}
+
+.cover--visibla {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+/* Main */
+
+.main {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.image {
+    width: 100%;
+    height: 70vh;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    object-fit: cover;
+
+}
+
+/* Products */
+
+.products-title {
+    text-align: center;
+    font-family: "IRANSansX-Bold";
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.products-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+
+.product-link {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    width: 17rem;
+}
+
+.product-link img {
+    width: 6rem;
+}
+
+.product-link h3 {
+    font-size: 1.5rem;
+    font-family: "IRANSansX-Black";
+}
+
+.bi-person {
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.ofers {
+    background-color: #f77f00;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+}
+
+.ofers-title {
+    text-align: center;
+    font-family: "IRANSansX-Bold";
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.ofers-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1.5rem 0
+}
+
+.ofer-img {
+    width: 20rem;
+    height: 19rem;
+    border-radius: 2rem;
+}
+
+.ofer {
+    background-color: #fff;
+    border-radius: 2rem;
+    height: 32rem;
+}
+
+.img-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "IRANSansX-Medium";
+}
+
+.img-price {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-icon a svg {
+    width: 2rem;
+}
+
+.img-link {
+    background-color: red;
+    width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.img-link svg {
+    color: #fff;
+}
+
+.img-off {
+    text-decoration: line-through;
+}
+
+.ofer-black {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #212529;
+}
+
+.ofer-caption {
+    max-width: 27rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: "IRANSansX-Medium";
+}
+
+.ofer-img-black {
+    width: 17rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.ofer-Second {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 4rem;
+    border-radius: 1rem;
+    padding: 1rem 2.5rem;
+    margin: 1.5rem 0.5rem;
+    font-family: "IRANSansX-Bold";
+}
+
+.img-description-black {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestselling-box {
+    background-color: #fff;
+    width: 30rem;
+    height: 14rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.bestselling-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: "IRANSansX-Bold";
+    font-size: 3rem;
+}
+
+.bestselling-img {
+    width: 10rem;
+}
+
+.bestselling-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bestselling-description {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+.bestselling-link {
+    display: flex;
+}
+
+.bestselling-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bestselling-wrapper span {
+    font-size: 1.5rem;
+}
+
+.level {
+    margin-top: 3.5rem;
+}
+
+.level-img {
+    width: 100%;
+    border-radius: 2rem;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.newsletter-img {
+    width: 20rem;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.photo-img {
+    width: 55rem;
+    border-radius: 2rem;
+}
