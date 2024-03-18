@@ -533,6 +533,54 @@ svg {
     border-radius: 2rem;
 }
 
+.articles-name {
+    text-align: center;
+    font-size: 3rem;
+    font-family: "IRANSansX-Bold";
+}
+
 .article-img {
-    width: 40rem;
+    width: 37rem;
+    border-radius: 2rem;
+}
+
+.article {
+    position: relative;
+}
+
+.calendar-wrapper {
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
+    height: 7rem;
+    justify-content: center;
+    border-radius: 1rem;
+    border-top: 0.5rem solid orange;
+}
+
+.articles-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.article-des {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.article-des div a {
+    display: flex;
+    align-items: center;
+}
+
+.bi-arrow-left-short {
+    width: 3rem;
+    height: 2rem;
 }
