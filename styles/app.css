@@ -360,7 +360,7 @@ svg {
 .ofers-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1.5rem 0
 }
 
@@ -563,6 +563,17 @@ svg {
     border-top: 0.5rem solid orange;
 }
 
+.calendar-wrapper span:first-child {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.calendar-wrapper span:last-child {
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
 .articles-box {
     display: flex;
     justify-content: space-between;
@@ -583,4 +594,77 @@ svg {
 .bi-arrow-left-short {
     width: 3rem;
     height: 2rem;
+}
+
+.footer {
+    background-color: #252422;
+    padding: 2rem;
+    margin-bottom: -2rem;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffba08;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.footer-wrapper {
+    padding-top: 2rem;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.footer-bottom-right p {
+    max-width: 50rem;
+    color: #fff;
+    font-family: "IRANSansX-Light";
+    line-height: 2;
+    font-size: 1.4rem;
+}
+
+.footer-bottom-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-bottom-name {
+    color: #fff;
+}
+
+.footer-bottom-center ul {
+    list-style-type: none;
+}
+
+.footer-bottom-center {
+    text-align: center;
+    margin: 0 3rem;
+}
+
+.footer-bottom-center ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom-center ul li a {
+    color: #fff;
+    font-family: "IRANSansX-Light";
+}
+
+.footer-caption {
+    background-color: #403d39;
+}
+
+.footer-caption p {
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.4rem;
 }
